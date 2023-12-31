@@ -1,3 +1,5 @@
+use it here: https://hyphen-ated.github.io/calendarchart/
+
 simple calendar tool based on the example at https://developers.google.com/chart/interactive/docs/gallery/calendar
 
 you can put in dates and it will render each date as a blue square on a calendar
