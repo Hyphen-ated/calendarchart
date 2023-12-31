@@ -1,4 +1,4 @@
-use it here: https://hyphen-ated.github.io/calendarchart/
+use it here: https://hyphen-ated.github.io/calendarchart/chart.html
 
 simple calendar tool based on the example at https://developers.google.com/chart/interactive/docs/gallery/calendar
 
