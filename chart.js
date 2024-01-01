@@ -6,11 +6,10 @@ function drawChart() {
     dataTable.addColumn({ type: 'date', id: 'Date' });
     dataTable.addColumn({ type: 'number', id: 'Gym' });
 
-    var rawDateString = document.getElementById('dates').value;
-    var dateLines = rawDateString.split('\n');
-    const yyyyRegex = /(\d\d\d\d)-(\d\d)-(\d\d)\s*/g
-    const implicitYearRegex = /(\d\d)\/(\d\d)\/(\d\d)\s*/g
-    const monthFirstRegex = /(\d\d)\/(\d\d)\/(\d\d\d\d)\s*/g
+    var rawDateString = document.getElementById('dates').value + '\n';
+    const yyyyRegex = /(\d\d\d\d)-(\d\d)-(\d\d)\s+/g
+    const implicitYearRegex = /(\d\d)\/(\d\d)\/(\d\d)\s+/g
+    const monthFirstRegex = /(\d\d)\/(\d\d)\/(\d\d\d\d)\s+/g
 
     var dates = [];
     // this earliestdate thing is a dumb hack, to make the colors look good we need a 0 to go with our 1 values
